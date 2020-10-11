@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset = "utf-8">
+<title> Welcome-Raihaan53 </title>
+
+
+
+</head>
+
+<body>
+
+<H1 style="font-family:courier;color:red;font-size:300%"> Raihaan53 </H1>
+
+<h2> Covered But Not Bound </h2>
+
+<p> Welcome to our <strong><b>first online store</b></strong> </p> 
+
+<a href="https://www.instagram.com/raihaan53/" >Go To Raihaan53 on Instagram </a>
+
+<p>all is great</p>
+
+<!-- Javascript button intro-->
+<script type="text/javascript">
+function addthistext()
+{ 
+      document.getElementById("para").innerHTML="Thanks for adding text";
+}
+</script>
+<h1 style="color:blue;"> Lets see a button </h1>
+<button onclick="addthistext()"> Click me </button>
+<p id="para" ></p>
+
+<p> blank space </p>
+<script type="text/javascript">
+function displayInput //this is a comment 
+{var testInput=document.getElementById("name")value;
+if (testinput.length == 0)
+document.getElementById("para").innerHTML = "You didnt type anything"}
+else document.getElementById("para").innerHTML = testInput;
+}
+</script>
+
+<!-- prompt-->
+<script>
+function myPrompt()
+{
+var person = prompt ("please enter your name");
+if (person !="") 
+{
+document.getElementById("test").innerHTML =
+ "hello" + person +"! How Are You Today"; 
+}
+
+else{
+alert("Hey , no input")
+}
+</script>
+<!-- alert -->
+<script>
+function anyFunction() {
+	alert("Nice to Meet You!");
+}
+
+</script>
+<body>
+<p> Javascript </p>
+<button onclick="myPrompt()">Click me </button>
+<p id="test"> </p>
+</body>
+<script>	
+function myAlertMath() 
+{
+var usernumber=document.getElementById("mathinput").value;
+alert("your number * 5 is" + usernumber * 20);
+}
+</script>
+<button onclick="alert(the test worked);">Alert Test</button>
+<input id="mathinput" type="number"/> <button onclick="myAlertMath()">Multiply </button>
+</script>
+</body>
+<body>
+<!-- this is a link in the image-->
+<a  href="https://www.instagram.com/raihaan53/">Click here to go to our instagram page<img src="raihaan.jpeg" /></a>
+
+<!-- this is the table and border styles-->
+<table border="3" style="border:solid;">
+<tr><td>today</td><td>morning</td><td>jogging</td><td>15min</td></tr>
+<tr><td>today</td><td>morning</td><td>jogging</td><td>120min</td></tr>
+</table>
+
+<!-- a drop down list-->
+<form action="action_page.php">
+<select name="Rida">
+<option value="chunky">chunky</option>
+<option value="funky">funky</option>
+<option value="seer">seer</option>
+<option value="sucker">sucker</option>
+</select>
+<br> <br>
+<input type="submit">
+</form>
+</body>
+
+</html>
